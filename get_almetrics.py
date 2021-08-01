@@ -76,8 +76,8 @@ def get_articles_info(csv_file, doi_key):
         'number of citations' : '',
         'citations per month' : '',
         'almetrics score' : almetrics_score,
-        'cited_by_tweets' : cited_by_tweets,
-        'readers_counts' : readers_counts,
+        'cited by tweets' : cited_by_tweets,
+        'readers counts' : readers_counts,
         'almetrics link' : almetrics_links
     }
 
