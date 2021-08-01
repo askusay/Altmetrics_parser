@@ -2,7 +2,7 @@
 Uses PyAlmetric to get almetric info over command line or processes csv file with multiple article DOIs
 
 ### Commmand line:
-*Get almetrics info based on DOI*
+*Get almetrics info in command line based on DOI*
 ```
 python get_almetrics.py -d "10.1371/journal.pone.0197265"
 
@@ -17,5 +17,13 @@ Almetrics readers: 164
 ### Using CSV
 *Provide .csv (-c) file with a column containing DOIs (-l)*
 
+*Takes .csv (sample_form.csv) file from microsoft forms for instance and generates a processed file (sample_form_processed.csv)*
+
 `python get_almetrics.py -c sample_form.csv -l "Article DOI"`
 
+![](process_csv.png)
+
+### Installation instructures 
+1. Install [pyAltmetric](https://github.com/wearp/pyAltmetric)
+2. Install pandas 
+3. Download get_almetrics.py and use (-h) for help
