@@ -23,7 +23,7 @@ Almetrics readers: 164
 
 ![](process_csv.png)
 
-### Installation instructures 
+### Installation instructions
 1. Install [pyAltmetric](https://github.com/wearp/pyAltmetric)
 2. Install pandas 
 3. Download get_almetrics.py and use (-h) for help
